@@ -1,0 +1,347 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Full-website{
+
+}
+.menu-section{
+   
+}
+.menu-section ul{
+    text-align: center;
+}
+.menu-section ul li{
+    font-size: 15px;
+    background-color:  #4bdbf3;
+    display: inline-block;
+    padding: 10px;
+}
+.menu-section ul li a{
+    display: inline-block;
+   text-decoration: none;
+   color: black;
+   position: relative;
+   font-weight: bold;
+}
+.menu-section ul li:hover{
+    background-color: aliceblue;
+ } 
+ .menu-section ul li a:hover{
+    color: #4bdbf3;
+ }
+ .menu-section ul li a::before{
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: .5s;
+ }
+ .menu-section ul li a:hover::before{
+    width: 100%;
+ }
+.About-section{
+   background-color: #48dbfc;
+   height: 400px;
+   margin-top: 10px;
+   
+}
+.About{
+    text-align: center;
+    position: relative;
+    top: 110px;
+}
+.About p{
+    color: aliceblue;
+    font-size: 25px;
+}
+.About h1{
+    color: aliceblue;
+    margin-top: 24px;
+    font-size: 52px;
+}
+.About a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: aliceblue;
+    padding: 13px;
+      padding-left: 13px;
+    color: #cccccc;
+    font-size: 14px;
+    font-weight: 600;
+    position: relative;
+    height: 44px;
+    width: 137px;
+    top: 11px;
+    text-align: center;
+    padding-left: 28px;
+    margin-top: 24px;
+    border-radius: 8px;
+    z-index: 1;
+}
+.About a::before{
+   content: "";
+   height: 100%;
+   width: 0;
+   bottom: 0;
+   left: 0;
+   position: absolute;
+   background-color: black;
+   transition: .5s;
+   z-index: -1;
+   border-radius: 8px;
+}
+.About a:hover::before{
+    width: 100%;
+}
+.About img{
+    height: 20px;
+    width: 23px;
+    position: absolute;
+    top: 14px;
+    left: 15px;
+}
+/* .Container-section{
+    text-align: center;
+    margin-top: 90px;
+    height: 900px;
+    width: 100%;
+} */
+
+.Container-section{
+     height: auto;
+     width: 1200px; 
+    margin: 50px auto;
+    text-align: center;
+    background-color: #ffffff;
+    margin-top: 100px;
+}
+.image{
+    margin-top: 100px;
+}
+.Container-section h2{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+/* image1 hover */
+.Container-section .img1{
+    display: inline-block;
+    overflow: hidden;
+    margin: 10px;
+    width: 250px;
+}
+.Container-section .img1 img{
+    max-width:100% ;
+    transition: .5s;
+}
+.Container-section .img1 img:hover{
+    transform: rotate(360deg);
+}
+/* image2 hover */
+.Container-section .img2{
+    display: inline-block;
+    overflow: hidden;
+    margin: 10px;
+    width: 250px;
+}
+.Container-section .img2 img{
+    width: 250px;
+    height: 190px;
+}
+.Container-section .img2 img{
+    max-width:100% ;
+    transition: .5s;
+}
+.Container-section .img2 img:hover{
+    transform: rotate(40deg) scale(1.2);
+}
+/* image3 hover */
+.Container-section .img3{
+    display: inline-block;
+    overflow: hidden;
+    margin: 10px;
+    width: 250px;
+}
+.Container-section .img3 img{
+    max-width:100% ;
+    transition: .5s;
+}
+.Container-section .img3 img:hover{
+    transform: rotate(-30deg) scale(1.2);
+}
+/* image4 hover */
+.Container-section .img4{
+    display: inline-block;
+    overflow: hidden;
+    margin: 10px;
+    width: 250px;
+}
+.Container-section .img4 img{
+    max-width:100% ;
+    transition: .5s;
+}
+.Container-section .img4 img:hover{
+    transform: rotate(-30deg) scale(1.2);
+}
+/* image 5 */
+.Container-section .img5{
+    display: inline-block;
+    overflow: hidden;
+    margin: 10px;
+    width: 250px;
+}
+.Container-section .img5 img{
+    max-width:100% ;
+    transition: .5s;
+}
+.Container-section .img5 img:hover{
+    transform: rotate(40deg) scale(1.2);
+}
+/* image6 hover */
+.Container-section .img6{
+    display: inline-block;
+    overflow: hidden;
+    margin: 10px;
+    width: 250px;
+}
+.Container-section .img6 img{
+    max-width:100% ;
+    transition: .5s;
+}
+.Container-section .img6 img:hover{
+    transform: rotate(360deg);
+}
+/* image7 */
+.Container-section .img7{
+    display: inline-block;
+    overflow: hidden;
+    margin: 10px;
+    width: 250px;
+}
+.Container-section .img7 img{
+    max-width:100% ;
+    transition: .5s;
+}
+.Container-section .img7 img:hover{
+    transform: scale(1.3);
+}
+/* image8 hover */
+.Container-section .img8{
+    display: inline-block;
+    overflow: hidden;
+    margin: 10px;
+    width: 250px;
+}
+.Container-section .img8 img{
+    max-width:100% ;
+    transition: .5s;
+}
+.Container-section .img8 img:hover{
+    transform: scale(1.3);
+}
+.footer{
+    text-align: center;
+    margin-top: 150px;
+}
+.footer h1{
+    font-size: 50px;
+}
+.footer p{
+    position: relative;
+    top: 20px;
+    line-height: 28px;
+    font-size: 18px;
+    color: #7d8997;
+}
+.Instraction-item1{
+    position: relative;
+    padding: 12px;
+    background-color: black;
+    top: 30px;
+    left: 370px;
+    height: 48px;
+    width: 81px;
+    transform: rotate(-40deg);
+    transition: .5s;
+}
+.Instraction-item1 a{
+      text-decoration: none;
+      color: aliceblue; 
+      font-weight: bold;
+}
+/* hover footer */
+.Instraction-item1 a:hover{
+    color: black;
+    font-weight: bold;
+}
+.Instraction-item1:hover{
+    transform: rotate(0deg) scale(1.2);
+    background-color: #2fa5cb;
+    cursor: pointer;
+}
+.Instraction-item2{
+    position: relative;
+    padding: 12px;
+    background-color: black;
+    top: -25px;
+    left: 776px;
+    height: 48px;
+    width: 81px;
+    transition: .5s;
+}
+.Instraction-item2 a{
+      text-decoration: none;
+      color: aliceblue; 
+}
+/* hover footer */
+.Instraction-item2 a:hover{
+    color: black;
+    font-weight: bold;
+}
+.Instraction-item2:hover{
+    transform: scale(1.2);
+    background-color: #2fa5cb;
+    cursor: pointer;
+}
+.Instraction-item3{
+    position: relative;
+    padding: 12px;
+    background-color: black;
+    top: -65px;
+    right: -1131px;
+    height: 48px;
+    width: 81px;
+    transform: rotate(40deg);
+    transition: .5s;
+}
+.Instraction-item3 a{
+      text-decoration: none;
+      color: aliceblue; 
+}
+/* hover footer */
+.Instraction-item3 a:hover{
+    color: black;
+    font-weight: bold;
+}
+.Instraction-item3:hover{
+    transform: rotate(0deg) scale(1.2);
+    background-color: #2fa5cb;
+    cursor: pointer;
+}
+.Footer-bottom{
+    background-color: #2e2f31;
+    text-align: center;
+    height: 70px;
+    width: 100%;
+    margin-top: -45px;
+}
+.Footer-bottom p{
+    color: aliceblue;
+    margin: 0 20px 20px 0;
+    transform: translate(0px,25px);
+}
